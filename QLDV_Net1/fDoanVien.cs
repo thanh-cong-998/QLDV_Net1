@@ -40,7 +40,7 @@ namespace QLDV_Net1
         {
             loadgiaodien();
             // TODO: This line of code loads data into the 'qLDOANVIENDataSet1.ChiDoans' table. You can move, or remove it, as needed.
-            this.chiDoansTableAdapter.Fill(this.qLDOANVIENDataSet1.ChiDoans);
+            //this.chiDoansTableAdapter.Fill(this.qLDOANVIENDataSet1.ChiDoans);
             dataDoanVien.DataSource = stdBLL1.GetALL();
         }
 
@@ -176,6 +176,11 @@ namespace QLDV_Net1
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataDoanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

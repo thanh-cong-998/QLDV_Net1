@@ -71,6 +71,7 @@ namespace QLDV_Net1
             this.dataDoanVien.RowTemplate.Height = 24;
             this.dataDoanVien.Size = new System.Drawing.Size(1143, 182);
             this.dataDoanVien.TabIndex = 0;
+            this.dataDoanVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDoanVien_CellContentClick);
             // 
             // btnThemDV
             // 
@@ -246,9 +247,9 @@ namespace QLDV_Net1
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(25, 279);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 19);
+            this.label7.Size = new System.Drawing.Size(102, 19);
             this.label7.TabIndex = 18;
-            this.label7.Text = "Tên Đoàn Viên";
+            this.label7.Text = "Tên Chi Đoàn";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // chiDoansTableAdapter
