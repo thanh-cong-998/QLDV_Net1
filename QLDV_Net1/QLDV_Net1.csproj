@@ -128,17 +128,9 @@
     <Compile Include="fXepLoai.Designer.cs">
       <DependentUpon>fXepLoai.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202105010936074_creta.cs" />
-    <Compile Include="Migrations\202105010936074_creta.designer.cs">
-      <DependentUpon>202105010936074_creta.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105080903213_create_database.cs" />
-    <Compile Include="Migrations\202105080903213_create_database.designer.cs">
-      <DependentUpon>202105080903213_create_database.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202105081334480_create_database1.cs" />
-    <Compile Include="Migrations\202105081334480_create_database1.designer.cs">
-      <DependentUpon>202105081334480_create_database1.cs</DependentUpon>
+    <Compile Include="Migrations\202106050144576_create_database.cs" />
+    <Compile Include="Migrations\202106050144576_create_database.designer.cs">
+      <DependentUpon>202106050144576_create_database.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -180,14 +172,8 @@
     <EmbeddedResource Include="fXepLoai.resx">
       <DependentUpon>fXepLoai.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105010936074_creta.resx">
-      <DependentUpon>202105010936074_creta.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105080903213_create_database.resx">
-      <DependentUpon>202105080903213_create_database.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202105081334480_create_database1.resx">
-      <DependentUpon>202105081334480_create_database1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202106050144576_create_database.resx">
+      <DependentUpon>202106050144576_create_database.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

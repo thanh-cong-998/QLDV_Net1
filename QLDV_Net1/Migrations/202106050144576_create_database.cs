@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class creta : DbMigration
+    public partial class create_database : DbMigration
     {
         public override void Up()
         {
@@ -37,6 +37,7 @@
                         GioiTinh = c.String(),
                         NgayVaoDoan = c.String(),
                         MaChiDoan = c.Int(nullable: false),
+                        Picture = c.String(),
                     })
                 .PrimaryKey(t => t.MaDoanVien);
             

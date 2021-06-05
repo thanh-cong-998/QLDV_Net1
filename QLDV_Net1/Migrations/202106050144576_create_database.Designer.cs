@@ -7,13 +7,13 @@ namespace QLDV_Net1.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class create_database1 : IMigrationMetadata
+    public sealed partial class create_database : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(create_database1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(create_database));
         
         string IMigrationMetadata.Id
         {
-            get { return "202105081334480_create_database1"; }
+            get { return "202106050144576_create_database"; }
         }
         
         string IMigrationMetadata.Source
